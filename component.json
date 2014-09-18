@@ -1,0 +1,9 @@
+{
+  "name":     "decimal-format",
+  "scripts":  ["index.js"],
+  "development": {
+    "dependencies": {
+      "component/assert": "*"
+    }
+  }
+}
