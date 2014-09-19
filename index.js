@@ -39,7 +39,10 @@ module.exports = {
 
     if (options.places) {
       formatted = this.round(number, options.places).toFixed(options.places);
+    } else {
+      formatted = number;
     }
+    formatted = formatted.toString();
 
     if (options.separator) {
       formatted = formatted.replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1'+options.separator);

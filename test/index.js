@@ -1,5 +1,5 @@
 var assert = require('assert');
-var decimal = require('decimal');
+var decimal = require('decimal-format');
 
 describe('decimal', function() {
 
@@ -28,6 +28,7 @@ describe('decimal', function() {
   describe('.format()', function() {
 
     it('should return the expected result', function() {
+      assert.strictEqual('0', decimal.format(0));
       assert.strictEqual('0.0', decimal.format(0,       {places: 1}));
       assert.strictEqual('1.0', decimal.format(1,       {places: 1}));
       assert.strictEqual('1.28', decimal.format(1.275,  {places: 2}));
