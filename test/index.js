@@ -1,5 +1,5 @@
 var assert = require('assert');
-var decimal = require('decimal-format');
+var decimal = require('format-decimal');
 
 describe('decimal', function() {
 

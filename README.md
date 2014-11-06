@@ -1,6 +1,6 @@
-# decimal-format
+# format-decimal
 
-Formats decimal numbers.
+Format decimal numbers.
 
 ## API
 

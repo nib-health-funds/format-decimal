@@ -1,5 +1,5 @@
 {
-  "name":     "decimal-format",
+  "name":     "format-decimal",
   "scripts":  ["index.js"],
   "development": {
     "dependencies": {
