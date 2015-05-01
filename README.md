@@ -2,6 +2,16 @@
 
 Format decimal numbers.
 
+## Installation
+
+    component install nib-health-funds/format-decimal
+
+## Usage
+
+    var decimal = require('format-decimal');
+    var price   = decimal.format(1699, {places: 2, separator: ','});
+    console.log(price); //prints "1,699.00"
+
 ## API
 
 ### .round(number, places)
