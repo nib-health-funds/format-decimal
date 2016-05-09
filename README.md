@@ -4,6 +4,12 @@ Format decimal numbers.
 
 ## Installation
 
+NPM:
+
+    npm install --save @nib/format-decimal
+
+Component:
+
     component install nib-health-funds/format-decimal
 
 ## Usage
